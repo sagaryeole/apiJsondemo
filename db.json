@@ -25,7 +25,7 @@
 		}
 	],
 
-	"comments": [{
+	"Comments": [{
 			"id": "1",
 			"Message": "Hello",
 			"UserId": "1"
