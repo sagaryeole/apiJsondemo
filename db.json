@@ -1,14 +1,59 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"Users": [{
+			"id": "1",
+			"username": "User 1",
+			"score": 50,
+			"active": true
+		},
+		{
+			"id": "2",
+			"username": "User 2",
+			"score": 40,
+			"active": true
+		},
+		{
+			"id": "3",
+			"username": "User 3",
+			"score": 80,
+			"active": true
+		},
+		{
+			"id": "4",
+			"username": "User 4",
+			"score": 90,
+			"active": false
+		}
+	],
+
+	"comments": [{
+			"id": "1",
+			"Message": "Hello",
+			"UserId": "1"
+		},
+		{
+			"id": "2",
+			"Message": "Hej There",
+			"UserId": "1"
+		},
+		{
+			"id": "3",
+			"Message": "Hello",
+			"UserId": "2"
+		},
+		{
+			"id": "4",
+			"Message": "Hello",
+			"UserId": "3"
+		},
+		{
+			"id": "5",
+			"Message": "Hello",
+			"UserId": "4"
+		},
+		{
+			"id": "6",
+			"Message": "Hello",
+			"UserId": "4"
+		}
+	]
 }
